@@ -22,7 +22,7 @@ To get started with the project, follow these steps:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/server-side-rendering.git
+   git clone https://github.com/mrinmoy32/server-side-rendering-with-next.js.git
    ```
 
 2. Install dependencies:
@@ -69,7 +69,7 @@ This will build the application for production and start the server.
 
 ## Author
 
-- [Mrinmoy Pal](https://github.com/your-username)
+- [Mrinmoy Pal](https://github.com/mrinmoy32)
 
 ## License
 
