@@ -1,0 +1,16 @@
+1. Creating a next.js app ---
+
+A. using command: npm create-next-app app_name
+
+B. manually: i> create a directory. Then create a package.json using: npm init. 
+ii> After that install 'react', 'react-dom' and 'next' dependencies.
+iii> Then add the following scripts in package.json's scripts object
+"dev": "next dev"
+"build": "next build"
+"start": "next start"
+
+iv> then create pages folder with index.js as entry point
+
+v> create public folder and add some logo and images
+
+vi>
