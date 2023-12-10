@@ -1,7 +1,6 @@
 import React from 'react'
 import styles from './index.module.css'
 import Card from './Card'
-import data from './API/data.json'
 
 export default class Index extends React.Component {
 
