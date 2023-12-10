@@ -1,12 +1,12 @@
 import React from 'react'
 import styles from './index.module.css'
 import Card from './Card'
-import { initStore } from '../store';
+import { initStore, initialCards, additem } from '../store';
 
 class Index extends React.Component {
 
-    static async getInitialProps({store}) {
-        return store.dispatch(initialCard());
+    static async getInitialProps({ store }) {
+        return store.dispatch(initialCards());
     }
 
     render() {
@@ -18,6 +18,7 @@ class Index extends React.Component {
                 <div className={styles.grid}>
                     {this.props.cards.map(card => <Card key={card.id} />)}
                 </div>
+                {/* <button onClick={()=>{dispatch(additem)}}>Add Item</button> */}
             </div>
         )
     }
