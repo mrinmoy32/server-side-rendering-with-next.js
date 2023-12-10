@@ -1,6 +1,7 @@
 # Server Side Rendering with Next.js
 
-<img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48"  alt="Nextjs" />Nextjs
+<img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48"  alt="Nextjs" />
+Nextjs
 
 ## Overview
 
