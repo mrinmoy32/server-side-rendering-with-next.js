@@ -1,6 +1,7 @@
 # Server Side Rendering with Next.js
 
-![Next.js Logo](https://raw.githubusercontent.com/vercel/next.js/canary/examples/with-styled-components/static/styled-components.png)
+<img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48"  alt="Nextjs" />
+      <br>Nextjs
 
 ## Overview
 
