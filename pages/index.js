@@ -1,11 +1,12 @@
 import React from 'react'
 import styles from './index.module.css'
 import Card from './Card'
+import { initStore } from '../store';
 
-export default class Index extends React.Component {
+class Index extends React.Component {
 
-    static async getInitialProps() {
-        return { card: data }
+    static async getInitialProps({store}) {
+        return store.dispatch(initialCard());
     }
 
     render() {
@@ -21,3 +22,5 @@ export default class Index extends React.Component {
         )
     }
 }
+
+export default initStore.withRedux(Index)

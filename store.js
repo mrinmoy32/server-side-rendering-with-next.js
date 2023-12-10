@@ -6,3 +6,5 @@ import data from './pages/API/data.json'
 const store = (initialState = startState) => {
     return createStore(reducer, initialState)
 }
+
+export const initStore = createWrapper(store);
