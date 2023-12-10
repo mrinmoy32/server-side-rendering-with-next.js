@@ -1,9 +1,13 @@
 # Server Side Rendering with Next.js
 
-<td align="center" width="96">
-        <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48"  alt="Nextjs" />
-      <br>Nextjs
-    </td>
+<table>
+    <tr>
+        <td align="center" width="96">
+            <img src="https://skillicons.dev/icons?i=nextjs" width="48" height="48"  alt="Nextjs" />
+            <br>Nextjs
+        </td>
+    </tr>
+</table>
 
 ## Overview
 
