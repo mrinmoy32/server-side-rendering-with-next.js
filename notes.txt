@@ -9,11 +9,12 @@ iii> Then add the following scripts in package.json's scripts object
 "build": "next build"
 "start": "next start"
 
-iv> then create pages folder with index.js as entry point and other react componenets
+iv> then create pages folder with index.js as entry point and other react componenets hierarchy 
 
-v> create public folder and add some logo and images
-
-vi>
-
+v> create public folder and add some logo and images or any other public files like favicon etc.
 
 ## A great github repo to find API data: https://github.com/vercel/next.js/tree/canary/examples
+
+=====================================================================
+
+2. 
