@@ -12,8 +12,8 @@ const cardsSlice = createSlice({
         initialCards: (state) => {
             state.cards= data
         },
-        addItem: (state, item) => {
-            state.cards = [...state, item]
+        addItem: (state, action) => {
+            state.cards = [...state.cards, action.payload]
         }
     }
 
