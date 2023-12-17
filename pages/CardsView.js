@@ -4,6 +4,7 @@ import { initialCards, addItem } from './cardsSlice'
 import { useSelector, useDispatch } from 'react-redux'
 import styles from './cards.module.css'
 import { v4 as uuidv4 } from 'uuid';
+import Link from 'next/link'
 
 function CardsView() {
     const myUuid = uuidv4();
@@ -20,7 +21,10 @@ function CardsView() {
     return (
         <div className={styles.app}>
             <header className={styles.header}>
+                <Link href="/page3">
                 <img src='logo.png' className={styles.logo} />
+                </Link>
+                
             </header>
             <div className={styles.grid}>
                 {cards.map(card => <Card key={card.id} />)}
